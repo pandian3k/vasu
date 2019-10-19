@@ -1,5 +1,5 @@
 <html>
 <body>
-<h2>hello world</h2>
+<h2>Diwali sections start soon :))</h2>
 </body>
 </html>
