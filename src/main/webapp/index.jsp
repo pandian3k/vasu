@@ -1,5 +1,5 @@
 <html>
 <body>
-<h2>Maven demo</h2>
+<h2>Maven demo web</h2>
 </body>
 </html>
