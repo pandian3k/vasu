@@ -1,0 +1,22 @@
+pipeline {
+   agent any
+
+   stages {
+      stage('SCM') {
+         steps {
+            git 'https://github.com/pandian3k/vasu.git'
+         }
+      }
+     stage ('Build') {
+         steps {
+             sh label: '', script: 'mvn clean'
+             sh label: '', script: 'mvn install'
+         }
+     }
+     stage('Deployment') {
+         steps {
+            sh label: '', script: 'cp -rp "/var/lib/jenkins/workspace/pipeline/1st pipeline/target/sweet.war" "/opt/apache-tomcat/webapps"'
+         }
+      }
+   }
+}
