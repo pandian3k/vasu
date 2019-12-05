@@ -1,5 +1,5 @@
 <html>
 <body>
-<h2>Mr.Murali in dating mood v1</h2>
+<h2>Maven demo</h2>
 </body>
 </html>
